@@ -9,7 +9,11 @@ Nettool là tool được tạo ra để hỗ trợ những người chỉ muố
 + Hệ điều hành có thể chạy được ngôn ngữ batch (Windows,linux,...)
 
 # Instalation
-" 
-
-
+``` git clone https://github.com/phantrongkien/Nettool.git
+```
+Hoặc :
++ Tải file trực tiếp về máy
++ Yêu cầu cho máy windows 10 phải cài đặt terminal bản mới
++ Sau khi máy bạn có terminal bản mới hoặc đã có từ trước hãy vào phần file json để thêm schemes mà tôi đã đính kèm đó chính là "Under The Sea"
++ NẾU KHÔNG thì công cụ sẽ trông rất xấu 
 
