@@ -34,7 +34,7 @@ Thay đổi địa chỉ IP nội bộ nhanh chóng mà không cần truy cập 
 + Wi-Fi Access History:
 
 Xem lại lịch sử các mạng Wi-Fi đã từng kết nối để dễ dàng quản lý và kiểm tra bảo mật.
-Và nhiều tính năng khác ... 
++ Và nhiều tính năng khác ... 
 # Issues
  Nếu bạn gặp bất kỳ vấn đề gì hoặc có góp ý để cải thiện công cụ, hãy mở issue hoặc liên hệ trực tiếp với tôi qua GitHub.
 
