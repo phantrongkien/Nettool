@@ -1,6 +1,5 @@
 # Nettool
 ![Static Badge](https://img.shields.io/badge/Nettool-Versions_2.1-green) ![Static Badge](https://img.shields.io/badge/Supported_OS-Windows-orange) 
-![Creator](https://img.shields.io/badge/Creator-Amsosc@re-blue?style=plastic&logo=github)
 <img src="https://img.shields.io/badge/Creator-Amsosc@re-blue?style=plastic&logo=github" width="155">
 
 Nettool là tool được tạo ra để hỗ trợ những người chỉ muốn dùng batch file để làm mọi thứ . Tool này bạn không cần phải tải bất cứ thứ gì nữa nhưng nếu muốn dùng tính năng arp poisoning của python thì yêu cầu phải có python
