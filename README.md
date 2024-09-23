@@ -17,4 +17,11 @@ Hoặc :
 + Yêu cầu cho máy windows 10 phải cài đặt terminal bản mới
 + Sau khi máy bạn có terminal bản mới hoặc đã có từ trước hãy vào phần file json để thêm schemes mà tôi đã đính kèm đó chính là "Under The Sea"
 + NẾU KHÔNG thì công cụ sẽ trông rất xấu 
-
+# Features
++ Listen
++ Ping
++ scan
++ Change IPV4
++ Check wifi you've acessed and more ...
+# Issues
+ Tell me at 
