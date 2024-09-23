@@ -22,19 +22,19 @@ Hoặc :
 + Chạy các tập lệnh batch file từ dòng lệnh hoặc Terminal.
 + Để biết chi tiết về từng tính năng, xem các file .bat hoặc tài liệu chi tiết trong thư mục docs.
 # Features
-Ping Tool:
++ Ping Tool:
 
 Kiểm tra kết nối giữa máy tính của bạn và các thiết bị khác trong mạng, giúp phát hiện sự cố về kết nối.
-Network Scanner:
++ Network Scanner:
 
 Quét và liệt kê các thiết bị đang kết nối trong mạng, hỗ trợ theo dõi và quản lý thiết bị.
-IPV4 Address Changer:
++ IPV4 Address Changer:
 
 Thay đổi địa chỉ IP nội bộ nhanh chóng mà không cần truy cập cài đặt hệ thống.
-Wi-Fi Access History:
++ Wi-Fi Access History:
 
 Xem lại lịch sử các mạng Wi-Fi đã từng kết nối để dễ dàng quản lý và kiểm tra bảo mật.
-Và nhiều tính năng xịn xò khác 
+Và nhiều tính năng khác ... 
 # Issues
  Nếu bạn gặp bất kỳ vấn đề gì hoặc có góp ý để cải thiện công cụ, hãy mở issue hoặc liên hệ trực tiếp với tôi qua GitHub.
 
