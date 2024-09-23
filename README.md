@@ -9,7 +9,8 @@ Nettool là tool được tạo ra để hỗ trợ những người chỉ muố
 + Hệ điều hành có thể chạy được ngôn ngữ batch (Windows,linux,...)
 
 # Instalation
-``` git clone https://github.com/phantrongkien/Nettool.git
+```
+git clone https://github.com/phantrongkien/Nettool.git
 ```
 Hoặc :
 + Tải file trực tiếp về máy
