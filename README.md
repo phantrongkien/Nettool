@@ -8,6 +8,26 @@ Nettool không chỉ giúp tiết kiệm thời gian và công sức, mà còn g
 
 # Require
 + Hệ điều hành hỗ trợ batch (Windows, Linux, ...)
++ =
+
+<table>
+    <tr>
+        <th>Operative system</th>
+        <th> Version </th>
+    </tr>
+    <tr>
+        <td>Ubuntu</td>
+        <td> 16.04  / 15.10 </td>
+    </tr>
+    <tr>
+        <td>Kali linux</td>
+        <td> Rolling / Sana</td>
+    </tr>
+    <tr>
+        <td>Parrot OS</td>
+        <td>3.1 </td>
+    </tr>
+</table>
 
 # Instalation
 ```
@@ -17,7 +37,7 @@ Hoặc :
 + Tải file trực tiếp về máy tính của bạn.
 + Đối với Windows 10: Cần có Windows Terminal phiên bản mới nhất.
 + Sau khi cài đặt Terminal, bạn có thể tùy chỉnh giao diện bằng cách thêm schemes "Under The Sea" vào file settings.json để giao diện trông đẹp hơn.
-+ Lưu ý: Nếu không tùy chỉnh, giao diện sẽ trông khá thô. 
++ Lưu ý: Nếu không tùy chỉnh như trên, giao diện sẽ trông khá thô. 
 # User manual
 + Chạy các tập lệnh batch file từ dòng lệnh hoặc Terminal.
 + Để biết chi tiết về từng tính năng, xem các file .bat hoặc tài liệu chi tiết trong thư mục docs.
