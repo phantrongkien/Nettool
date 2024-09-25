@@ -20,7 +20,7 @@ Nettool không chỉ giúp tiết kiệm thời gian và công sức, mà còn g
     </tr>
     <tr>
         <td>Windows 11</td>
-        <td> 22H2 or later </td>
+        <td> 21H2 or later </td>
     </tr>
     <tr>
         <td>Linux</td>
