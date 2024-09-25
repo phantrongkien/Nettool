@@ -60,4 +60,4 @@ Xem lại lịch sử các mạng Wi-Fi đã từng kết nối để dễ dàng
 # Inspired
 - Tool idea : ReconV2 - <a href="https://github.com/EbolaMan-YT"> Ebola man</a>
 - Ascii and art : + Xvirus - <a href="https://github.com/DXVVAY"> DXVVAY</a>
--                 + Xerosploit - <a href="https://github.com/LionSec"> LionSec</a>
+- Xerosploit<a href="https://github.com/LionSec"> LionSec</a>
