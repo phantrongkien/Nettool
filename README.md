@@ -56,5 +56,8 @@ Xem lại lịch sử các mạng Wi-Fi đã từng kết nối để dễ dàng
 + Và nhiều tính năng khác ... 
 # Issues
  Nếu bạn gặp bất kỳ vấn đề gì hoặc có góp ý để cải thiện công cụ, hãy liên hệ qua <a href="https://github.com/phantrongkien/Nettool/issues"> issues</a>
-
-
+ + Nhưng tôi sẽ không sửa đâu vì tôi không biết code.
+# Inspired
+- Tool idea : ReconV2 - <a href="https://github.com/EbolaMan-YT"> Ebola man</a>
+- Ascii and art : + Xvirus - <a href="https://github.com/DXVVAY"> DXVVAY</a>
+-                 + Xerosploit - <a href="https://github.com/LionSec"> LionSec</a>
