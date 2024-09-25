@@ -8,24 +8,23 @@ Nettool không chỉ giúp tiết kiệm thời gian và công sức, mà còn g
 
 # Require
 + Hệ điều hành hỗ trợ batch (Windows, Linux, ...)
-+ =
-
++ Lưu ý tool này chỉ hỗ trợ tốt cho window về linux thì phải chỉnh sửa lại script
 <table>
     <tr>
         <th>Operative system</th>
         <th> Version </th>
     </tr>
     <tr>
-        <td>Ubuntu</td>
-        <td> 16.04  / 15.10 </td>
+        <td>Windows 10</td>
+        <td> 1909 or later </td>
     </tr>
     <tr>
-        <td>Kali linux</td>
-        <td> Rolling / Sana</td>
+        <td>Windows 11</td>
+        <td> 22H2 or later </td>
     </tr>
     <tr>
-        <td>Parrot OS</td>
-        <td>3.1 </td>
+        <td>Linux</td>
+        <td>-IDK-</td>
     </tr>
 </table>
 
