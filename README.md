@@ -59,5 +59,9 @@ Xem lại lịch sử các mạng Wi-Fi đã từng kết nối để dễ dàng
  + Nhưng tôi sẽ không sửa đâu vì tôi không biết code.
 # Inspired
 - Tool idea : ReconV2 - <a href="https://github.com/EbolaMan-YT"> Ebola man</a>
-- Ascii and art : + Xvirus - <a href="https://github.com/DXVVAY"> DXVVAY</a>
-- Xerosploit<a href="https://github.com/LionSec"> LionSec</a>
+- Ascii and art :
+- Xvirus - <a href="https://github.com/DXVVAY"> DXVVAY</a>
+- Xerosploit - <a href="https://github.com/LionSec"> LionSec</a>
+- Tools :
+- Arpspoof.exe - <a href="https://github.com/alandau"> alandau </a>
+-Python arp poisoning tool - ( Quên nguồn )
