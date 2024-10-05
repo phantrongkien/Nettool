@@ -1,6 +1,8 @@
 # Nettool
 ![Static Badge](https://img.shields.io/badge/Nettool-Versions_2.1-green) ![Static Badge](https://img.shields.io/badge/Supported_OS-Windows-orange) 
 <img src="https://img.shields.io/badge/Creator-Amsosc@re-blue?style=plastic&logo=github" width="155">
+Tool này cung cấp cho các bạn một giao diện terminal trông giống kali linux nhất có thể 
+![image](https://github.com/user-attachments/assets/561ee7be-9b54-416c-97a4-6d42cb80af53)
 
 Nettool là một công cụ mạnh mẽ được thiết kế dành riêng cho những ai muốn tối ưu hóa các tác vụ mạng thông qua việc sử dụng batch files. Được phát triển với mục tiêu đơn giản hóa quy trình quản lý mạng, Nettool cho phép người dùng thực hiện các thao tác phổ biến mà không cần phải cài đặt phần mềm phức tạp.
 Nettool không chỉ giúp tiết kiệm thời gian và công sức, mà còn giúp người dùng nắm bắt tình trạng mạng một cách dễ dàng và trực quan
