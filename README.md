@@ -6,6 +6,7 @@
 
 Tool này cung cấp cho các bạn một giao diện terminal trông giống kali linux nhất có thể 
 
+![visual](https://github.com/user-attachments/assets/e94c4c8b-49d0-4b90-b6e4-b1d663dfd029)
 
 
 Ngoài ra còn có tool kèm đó là nettool
