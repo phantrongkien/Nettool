@@ -2,7 +2,8 @@
 ![Static Badge](https://img.shields.io/badge/Nettool-Versions_2.1-green) ![Static Badge](https://img.shields.io/badge/Supported_OS-Windows-orange) 
 <img src="https://img.shields.io/badge/Creator-Amsosc@re-blue?style=plastic&logo=github" width="155">
 
-
+> [!NOTE]
+> This tool is currently not have english version
 
 Tool này cung cấp cho các bạn một giao diện terminal trông giống kali linux nhất có thể 
 
