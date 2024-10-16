@@ -375,20 +375,28 @@ if "%input%"=="2" goto check_ip_status
 if "%input%"=="0" goto nettoolmenu
 
 :scan_network
-cls
 @echo off
 chcp 65001 >nul
-echo [+]═════════[ Các thiết bị online tìm được trên mạng của bạn ]═════════[+]
+cls
 
+echo [+]═════════[ Các thiết bị online tìm được trên mạng của bạn ]═════════[+]
+echo.
+
+REM Đặt biến đếm để đếm số thiết bị
 set counter=0
+
+REM Ping tất cả các địa chỉ IP trong dải mạng
 for /L %%i in (1,1,254) do (
     ping -n 1 -w 100 192.168.1.%%i > nul
 )
 
 echo.
-echo   IP Address            Mac Address
-echo ---------------     -------------------
+REM In tiêu đề bảng với ASCII giống hình
+echo   ╔══════════════════╦══════════════════════╗
+echo   ║   IP Address     ║     Mac Address      ║
+echo   ╠══════════════════╬══════════════════════╣
 
+REM Lặp qua các địa chỉ ARP và hiển thị kết quả
 for /f "tokens=1,2 delims= " %%a in ('arp -a ^| find "dynamic"') do (
     set "ip=%%a"
     set "mac=%%b"
@@ -396,13 +404,19 @@ for /f "tokens=1,2 delims= " %%a in ('arp -a ^| find "dynamic"') do (
     set /a counter+=1
 )
 
+REM In dòng kết thúc bảng
+echo   ╚══════════════════╩══════════════════════╝
+
 echo.
 echo Number of hosts up: %counter%
 
+REM Hiển thị thông báo qua Windows
 powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; Add-Type -AssemblyName System.Drawing; $notify = New-Object System.Windows.Forms.NotifyIcon; $notify.Icon = [System.Drawing.SystemIcons]::Information; $notify.Visible = $true; $notify.ShowBalloonTip(0, 'Nettool', 'Đã quét mạng xong', [System.Windows.Forms.ToolTipIcon]::Info)}"
 
 echo [7;95m Bấm bất cứ phím nào để tiếp tục [0m && pause >nul
+goto menu1
 
+REM Hàm để căn chỉnh và in địa chỉ IP và MAC
 :PrintAligned
     setlocal enabledelayedexpansion
     set "ipAddress=%1"
@@ -412,12 +426,15 @@ echo [7;95m Bấm bất cứ phím nào để tiếp tục [0m && pause >nul
     set "ipAddress=!ipAddress:~0,15!"
     for /L %%i in (1,1,15) do if "!ipAddress:~%%i,1!"=="" set "ipAddress=!ipAddress! "
 
-    REM In ra dòng đã căn chỉnh
-    echo !ipAddress!      !macAddress!
+    REM Căn chỉnh Mac Address với độ dài 19 ký tự
+    set "macAddress=!macAddress:~0,19!"
+    for /L %%i in (1,1,19) do if "!macAddress:~%%i,1!"=="" set "macAddress=!macAddress! "
+
+    REM In ra dòng đã căn chỉnh với đường viền
+    echo   ║ !ipAddress! ║ !macAddress! ║
 
     endlocal  
 exit /b
-
 goto menu1
 
 :check_ip_status
