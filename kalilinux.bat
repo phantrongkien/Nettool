@@ -854,7 +854,7 @@ echo [7;95m Bấm bất cứ phím nào để tiếp tục [0m && pause >nul
 endlocal
 goto nettoolmenu
 :deauth
-python C:\Users\ADMIN\Desktop\deauth\dead.py
+echo Replace this line with python ...(location of dead.py file)
 echo [7;95m Bấm bất cứ phím nào để tiếp tục [0m && pause >nul 
 goto nettoolmenu
 :rootprompt
