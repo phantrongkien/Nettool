@@ -1,5 +1,5 @@
 # Nettool
-![Static Badge](https://img.shields.io/badge/Nettool-Versions_2.1-green) ![Static Badge](https://img.shields.io/badge/Supported_OS-Windows-orange) 
+![Static Badge](https://img.shields.io/badge/Nettool-Versions_1.0.0-green) ![Static Badge](https://img.shields.io/badge/Supported_OS-Windows-orange) 
 <img src="https://img.shields.io/badge/Creator-Amsosc@re-blue?style=plastic&logo=github" width="155">
 
 > [!NOTE]
